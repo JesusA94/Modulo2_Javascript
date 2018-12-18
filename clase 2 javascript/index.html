@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+  
+</head>
+<body>
+    <script>
+    var notaDes=Math.random()*100;
+    var notaExa=Math.random()*100;
+    var asistencia=Math.random()*100;
+    console.log("Desafios "+ notaDes.toFixed(2));
+    console.log("Examen " + notaExa.toFixed(2));
+    console.log("Asistencias " + asistencia.toFixed(0));
+
+    if (notaDes>=80)
+    console.log("Aprobo los desafios");
+    else
+    console.log("Reprobo los desafios");
+
+    if (notaExa<80)
+    console.log("Reprobo el Examen");
+    else
+    console.log("Aprobo el Examen");
+
+    if (notaDes>=80 && notaExa>=80)
+    {
+        console.log("Aprobo el Nivel");
+
+   //     if (notaDes==100 && notaExa==100)
+    //    console.log("Felicitaciones");
+    }
+
+
+     if (notaDes>=80 && notaExa>=80 || asistencia>=75)
+     {
+         console.log("Aprobo los Desafios y el Examen y asisticio a mas del 75%")
+
+     }
+
+
+        
+        
+        
+    </script>
+
+
+
+</body>
+</html>
